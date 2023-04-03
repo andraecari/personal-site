@@ -7,6 +7,21 @@ body {
 	padding: 0;
 }
 
+p {
+    font-weight: 200; 
+    color:rgb(68, 68, 68)
+}
+
+a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-weight: normal;
+}
+
+a:hover {
+    color: rgb(131, 162, 186);
+}
+
 .text-area {
     flex: 2;
     padding: 20px;
@@ -38,9 +53,10 @@ body {
 
 .btn {
     background-color: #fff;
-    border: 2px solid #333;
+    border: 1.5px solid #333;
     color: #333;
     font-size: 16px;
+    font-weight: 200;
     padding: 10px 20px;
     border-radius: 5px;
     transition: all 0.3s ease;
@@ -68,7 +84,7 @@ footer {
   
 .footer-label {
     margin: 0;
-    font-size: 11px;
+    font-size: 12px;
 }
   
 .footer-label::before {
@@ -79,7 +95,7 @@ footer {
 
     .content-container {
         flex-direction: column;
-        padding: 15px;
+        padding: 18px;
     }
     .container {
         flex-direction: column;
@@ -89,6 +105,5 @@ footer {
     }
     .portrait {
         flex: 1;
-        height: 300px;
     }
 }
