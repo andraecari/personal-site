@@ -5,7 +5,7 @@
 body {
 	margin: 0;
 	padding: 0;
-    background-color: #fff;
+    background-color: #fffcf123;
 }
 
 p {
@@ -62,7 +62,7 @@ a:hover {
     border: 1px solid #333;
     color: #333;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     margin: 8px;
     padding: 10px 20px;
     border-radius: 5px;
